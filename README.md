@@ -3,4 +3,4 @@
 Note: This app uses iCloud.
 _This app uses Highlitr by Raspu. Link below._
 [Highlitr](https://github.com/raspu/Highlightr)  
-Link: [Website](bit.do/codetome)
+Link: [Website](http://bit.do/codetome)
