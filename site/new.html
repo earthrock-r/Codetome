@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+  <body>
+
+    <header class="header">
+  <div class="header-logo">
+    <img src="images/logo.png" alt="Logo">
+  </div>
+  <div class="header-nav">
+    <ul>
+      <li><h4><a href="home.html">Home</a></h4></li>
+      <li><h4><a href="new.html">New Snippet</a></h4></li>
+    </ul>
+  </div>
+</header>
+
+
+<div class="content-wrap">
+  <div class="content">
+
+    <h2>Create new snippet</h2>
+<form method="GET" action="" class="new-snippet-form">
+  <input type="text" name="name" placeholder="Snippet Name"><br>
+  <input type="text" name="language" placeholder="Language"><br>
+  <input type="text" name="username" placeholder="Username"><br>
+  <textarea name="content" class="new-textarea">Content !!NEXT HIGHLIGHT.JS USE!!</textarea>
+  <button type="submit" onclick="newSnippet(this.form)">Go!</button>
+</form>
+
+
+  </div>
+</div>
+
+    <footer class="footer">
+  <div class="footer-info">
+    <h4>This website is created by Ranjith RD and Praveen DS</h4>
+    <h4>The iOS App was created by Ranjith RD</h4>
+    <h4>The iOS App uses Highlightr, an iOS native solution for highlight.js, which this website uses.</h4>
+  </div>
+  <div class="footer-nav">
+    <ul>
+      <li><h4><a href="https://earthrock-r.github.io">Earthrock</a></h4></li>
+      <li><h4><a href="https://earthrock-r.github.io/all/index.html">All my other apps</a></h4></li>
+    </ul>
+  </div>
+</footer>
+
+
+  </body>
+</html>
